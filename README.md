@@ -1,6 +1,11 @@
 # router6-essentials
 
+
 ### Upgrading from router5
+
+```javascript
+import { BrowserRouter, Route, Routes, Link, Navigate, Outlet } from "react-router-dom"; // import all new components from upgraded package(v6.0.0+)
+```
 
 1. Change all ```<Switch>``` elements to ```<Routes>```
 
